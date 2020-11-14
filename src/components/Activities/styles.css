@@ -1,0 +1,53 @@
+.ComponentActivities {
+    width: 100%;
+    padding: 60px 70px 60px 70px;
+    height: 700px;
+}
+
+.pCenter {
+    text-align: center;
+}
+
+
+.l-cards {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(3,350px);
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+}
+
+.c-card {
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 6px;
+    border-width: 1px;
+    width: 350px;
+    height: 290px;
+}
+
+.c-card article,h2 {
+    font-size: 90%;
+    text-align: center;
+    align-items: center;
+}
+
+.c-card h2 {
+    color: #08d665;
+}
+
+
+@media (max-width: 1200px ) {
+    .l-cards {
+        grid-template-columns: repeat(2, 350px);
+    }
+}
+
+@media (max-width: 700px ) {
+    .l-cards {
+        grid-template-columns: repeat(1, 350px);
+    }
+}

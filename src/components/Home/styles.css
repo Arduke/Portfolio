@@ -1,0 +1,88 @@
+.Component {
+    width: 100%;
+    padding: 60px 70px 60px 70px;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: white;
+}
+
+article{
+    text-align: justify;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+p{
+    font-size: 25px;
+    color: #08d665;
+}
+
+.BlockLeft {
+    width: 48%;
+}
+.BlockRight {
+    text-align: center;
+    width: 48%;
+}
+
+.line {
+    max-width: 340px;
+    border-right: 2px solid rgba( 255,255,255, 0.70);
+    
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    animation: blinkCursor 500ms steps(30) infinite normal, typing 2s steps(30) 1s normal;
+}
+
+.code_thinking {
+    width: 100%;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 340px;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color:rgba( 255,255,255, 0.70);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+
+@media (max-width: 858px) {
+    .Component {
+        display: inline;
+    }
+    p,article {
+        font-size: 90%;
+    }
+    .BlockLeft {
+        padding-right: 80px;
+        padding-left: 80px;
+        width: 100%;
+    }
+    .BlockRight {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .code_thinking {
+        display: none;
+    }
+}

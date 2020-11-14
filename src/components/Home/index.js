@@ -1,0 +1,22 @@
+import React from 'react'
+import "./styles.css"
+import code_thinking from '../../image/code_thinking.svg'
+
+function Home() {
+  return (
+    <div className="Component">
+        <div className="BlockLeft">
+            <p>Hello There,</p>
+            <h1 class="line typing-animation">I Am Carlos Eduardo </h1>
+            <article>
+                I'm a Web Developer with knowledge in React Native, React.js and Node.js. My specialty at the moment is the creation of professional websites and mobile applications for management.
+            </article>
+        </div>
+        <div className="BlockRight">
+            <img className="code_thinking" alt="developer" src={code_thinking} ></img>
+        </div>
+    </div>
+  );
+}
+
+export default Home;
