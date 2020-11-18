@@ -5,6 +5,7 @@
 }
 
 .pCenter {
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -29,6 +30,11 @@
     height: 290px;
 }
 
+.c-card span {
+    padding-left: 47%;
+    
+}
+
 .c-card article,h2 {
     font-size: 90%;
     text-align: center;
@@ -46,7 +52,16 @@
     }
 }
 
-@media (max-width: 700px ) {
+@media (max-width: 600px ) {
+    .c-card {
+        padding: 10px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 6px;
+        border-width: 1px;
+        width: 250px;
+        height: 190px;
+    }
     .l-cards {
         grid-template-columns: repeat(1, 350px);
     }

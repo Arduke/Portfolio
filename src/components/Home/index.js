@@ -6,8 +6,10 @@ function Home() {
   return (
     <div className="Component">
         <div className="BlockLeft">
-            <p>Hello There,</p>
+            <p className="home">Hello There,</p>
+            <div className="">
             <h1 class="line typing-animation">I Am Carlos Eduardo </h1>
+            </div>
             <article>
                 I'm a Web Developer with knowledge in React Native, React.js and Node.js. My specialty at the moment is the creation of professional websites and mobile applications for management.
             </article>

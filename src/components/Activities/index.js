@@ -3,8 +3,8 @@ import "./styles.css"
 
 function Activities() {
     return (
-        <div className="ComponentActivities"> 
-            <p className="pCenter">My Activities</p>
+        <div id="activities" className="ComponentActivities"> 
+            <p  className="pCenter">My Activities</p>
             <div class="l-cards"> 
                 <article className="c-card">
                     <span class="material-icons">public</span> 

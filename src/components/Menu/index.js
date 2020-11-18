@@ -11,8 +11,8 @@ function Menu() {
         <label className="logo">KDUDEV</label>
         <ul>
             <li><a className="active" href="">HOME</a></li>
-            <li><a href="/">ABOUT</a></li>
-            <li><a href="/">ACTIVITIES</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#activities">ACTIVITIES</a></li>
             <li><a href="/">PORTFOLIO</a></li>
             <li><a href="/">CONTACT</a></li>
         </ul>

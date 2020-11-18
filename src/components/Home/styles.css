@@ -31,9 +31,9 @@ p{
 }
 
 .line {
-    max-width: 340px;
+    max-width: 310px;
     border-right: 2px solid rgba( 255,255,255, 0.70);
-    
+    font-size: 180%;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -51,7 +51,7 @@ p{
         width: 0;
     }
     to {
-        width: 340px;
+        width: 310px;
     }
 }
 
@@ -65,10 +65,12 @@ p{
 }
 
 
-
-@media (max-width: 858px) {
+@media (max-width: 800px) {
     .Component {
         display: inline;
+    }
+    .line {
+        font-size: 150%;
     }
     p,article {
         font-size: 90%;
@@ -80,9 +82,26 @@ p{
     }
     .BlockRight {
         width: 100%;
+        padding-right: 80px;
+        padding-left: 80px;
         padding-top: 30px;
     }
     .code_thinking {
         display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .line {
+       max-width: 215px; 
+       font-size: 20px;
+    }
+    .BlockLeft {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .BlockRight {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
