@@ -4,7 +4,7 @@ import code_thinking from '../../image/code_thinking.svg'
 
 function Home() {
   return (
-    <div className="Component">
+    <div id="home" className="Component">
         <div className="BlockLeft">
             <p className="home">Hello There,</p>
             <div className="">

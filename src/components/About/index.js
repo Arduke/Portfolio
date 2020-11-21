@@ -4,7 +4,7 @@ import developer_activity from '../../image/developer_activity.svg'
 import "./styles.css"
 function About() {
   return (
-      <div className="Component">
+      <div id="about" className="Component">
         <div className="BlockRight">
             <img alt="developer" className="developer_activity" src={developer_activity}></img>
         </div>

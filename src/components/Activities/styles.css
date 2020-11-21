@@ -1,10 +1,11 @@
 .ComponentActivities {
     width: 100%;
     padding: 60px 70px 60px 70px;
-    height: 700px;
+    height: auto;
 }
 
 .pCenter {
+    font-size: 25px;
     padding-top: 20px;
     text-align: center;
 }
@@ -42,6 +43,11 @@
 }
 
 .c-card h2 {
+    font-size: 28px;
+    color:white;
+}
+
+.c-card h2:hover {
     color: #08d665;
 }
 
@@ -52,7 +58,7 @@
     }
 }
 
-@media (max-width: 600px ) {
+@media (max-width: 900px ) {
     .c-card {
         padding: 10px;
         border-style: solid;
@@ -61,6 +67,9 @@
         border-width: 1px;
         width: 250px;
         height: 190px;
+    }
+    .c-card h2 {
+        font-size: 20px;
     }
     .l-cards {
         grid-template-columns: repeat(1, 350px);

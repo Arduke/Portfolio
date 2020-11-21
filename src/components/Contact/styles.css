@@ -1,0 +1,104 @@
+.ComponentContact {
+    width: 100%;
+    padding: 60px 70px 60px 70px;
+    height: auto;
+}
+
+
+.title {
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+
+.h1butgreen {
+    color: #08d665;
+    padding-left: 19px;
+}
+
+
+.BlockCentral { 
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.BlockLeftContact {
+    width: 48%;
+}
+
+.BlockLeft textarea {
+    color: white;
+    font-family: Poppins;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: 150px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.BlockLeft textarea:focus {
+    outline: none !important;
+    border: 1px solid #08d665;
+}
+
+
+.BlockRightContact {
+    text-align: center;
+    width: 48%;
+}
+
+
+.InputUnic {
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    font-family: Poppins;
+    cursor: text;
+    padding: 10px;
+}
+
+.InputUnic:focus {
+    outline: none !important;
+    border: 1px solid #08d665;
+}
+
+
+.InputDouble {
+    color: white;
+    font-family: Poppins;
+    background-color: transparent;
+    width: 49%;
+    border-style: solid;
+    border-radius: 1px;
+    line-height: 1.25;
+    border: 1px solid;
+    height: 30px;
+    cursor: text;
+    appearance: none;
+    padding: 10px;
+}
+
+.InputDouble:focus {
+    outline: none !important;
+    border: 1px solid #08d665;
+}
+
+.DivDoubleInput {
+    padding: 20px 0px 20px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 800px) {
+    .BlockCentral {
+        display: inline;
+    }
+}
