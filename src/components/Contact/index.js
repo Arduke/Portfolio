@@ -32,7 +32,7 @@ function Contact() {
               </form>
           </div>
           <div className="BlockRightContact">
-            <h1>Batata</h1>
+            <h1></h1>
           </div>
         </div>
     </div>
