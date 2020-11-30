@@ -101,4 +101,7 @@
     .BlockCentral {
         display: inline;
     }
+    .BlockLeftContact {
+        width: 100%;
+    }
 }

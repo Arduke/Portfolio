@@ -1,8 +1,17 @@
 import React from 'react'
 import "./styles.css"
-
+import emailjs from 'emailjs-com'
 
 function Contact() {
+  
+  const OnSubmit = (event)  => {
+    event.preventDefault()
+    emailjs.sendForm('gmail', `${process.env.REACT_APP_TEMPLATE_ID}`, event.target, `${process.env.REACT_APP_USER_ID}`)
+    .then(result => {
+      alert('Message Sent');
+    })
+  }
+  
   return (
     <div className="ComponentContact">
         <div className="title">
@@ -10,15 +19,16 @@ function Contact() {
         </div>
         <div className="BlockCentral">
           <div className="BlockLeftContact">
-              <form>
-              <input placeholder="Name" className="InputUnic"></input>
+              <form onSubmit={(event) => {OnSubmit(event)}} >
+              <input name="name" placeholder="Name" className="InputUnic"></input>
               <div className="DivDoubleInput">
-                  <input placeholder="Email" className="InputDouble"> 
+                  <input name="email" placeholder="Email" className="InputDouble"> 
                   </input>
-                  <input placeholder="Subject" className="InputDouble">
+                  <input name="subject" placeholder="Subject" className="InputDouble">
                   </input>
               </div>
-              <textarea placeholder="Your Message"></textarea>    
+              <textarea name="message" placeholder="Your Message"></textarea>  
+              <button type="submit" className="buttonDownload"> Enviar</button>  
               </form>
           </div>
           <div className="BlockRightContact">

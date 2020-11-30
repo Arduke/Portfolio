@@ -66,10 +66,28 @@
         border-radius: 6px;
         border-width: 1px;
         width: 250px;
+        height: 300px;
+    }
+    .c-card h2 {
+        font-size: 15px;
+    }
+    .l-cards {
+        grid-template-columns: repeat(1, 350px);
+    }
+}
+
+@media (max-width: 800px ) {
+    .c-card {
+        padding: 10px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 6px;
+        border-width: 1px;
+        width: 250px;
         height: 190px;
     }
     .c-card h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
     .l-cards {
         grid-template-columns: repeat(1, 350px);
