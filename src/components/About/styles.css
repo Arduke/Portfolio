@@ -24,6 +24,16 @@ td {
 
 .developer_activity {
     width: 100%;
+    animation: go-side 1s normal;
+}
+
+@keyframes go-side {
+    from {
+        transform: translateX(-800px);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 @media (max-width: 858px) {

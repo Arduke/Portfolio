@@ -52,6 +52,16 @@ p{
 
 .code_thinking {
     width: 100%;
+    animation: go-left 1s normal;
+}
+
+@keyframes go-left {
+    from {
+        transform: translatey(300px);
+    }
+    to {
+        transform: translatey(0);
+    }
 }
 
 @keyframes typing {
