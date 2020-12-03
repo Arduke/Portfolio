@@ -12,7 +12,7 @@ function Menu() {
     
 
     <nav>
-        <input onClick={handleMenu} type="checkbox" checked={checkBoxState} id="check"/>
+        <input onClick={handleMenu} type="checkbox" onChange={() => {console.log('')}} checked={checkBoxState} id="check"/>
         <label htmlFor="check" className="checkbtn">
             <i className="fas fa-bars"></i>
         </label>
@@ -22,7 +22,7 @@ function Menu() {
             <li><a onClick={handleMenu} href="#about">ABOUT</a></li>
             <li><a onClick={handleMenu} href="#activities">ACTIVITIES</a></li>
             <li><a onClick={handleMenu} href="/">PORTFOLIO</a></li>
-            <li><a onClick={handleMenu} href="/">CONTACT</a></li>
+            <li><a onClick={handleMenu} href="/#contact">CONTACT</a></li>
         </ul>
     </nav>
   )
