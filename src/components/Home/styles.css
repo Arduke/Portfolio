@@ -1,6 +1,6 @@
 .Component {
     width: 100%;
-    padding: 60px 70px 60px 70px;
+    padding: 30px 70px 30px 70px;
     height: 700px;
     align-items: center;
     display: flex;
@@ -8,7 +8,11 @@
 }
 
 h1{
+    
     color: white;
+}
+.home {
+    margin: 0px;
 }
 
 .title {
@@ -26,6 +30,7 @@ article{
 }
 
 p{
+    
     font-size: 25px;
     color: #08d665;
 }
@@ -39,6 +44,7 @@ p{
 }
 
 .line {
+    
     max-width: 310px;
     border-right: 2px solid rgba( 255,255,255, 0.70);
     font-size: 180%;
@@ -52,17 +58,8 @@ p{
 
 .code_thinking {
     width: 100%;
-    animation: go-left 1s normal;
 }
 
-@keyframes go-left {
-    from {
-        transform: translatey(300px);
-    }
-    to {
-        transform: translatey(0);
-    }
-}
 
 @keyframes typing {
     from {

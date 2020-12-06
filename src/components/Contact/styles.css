@@ -7,14 +7,18 @@
 
 .title {
     width: 100%;
-    align-items: center;
+    text-align: center;
     display: flex;
+}
+.title h1 {
+    width: 100%;
 }
 
 
 .h1butgreen {
     color: #08d665;
-    padding-left: 19px;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -47,6 +51,7 @@
 
 
 .BlockRightContact {
+    background-color: white;
     text-align: center;
     width: 48%;
 }

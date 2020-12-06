@@ -50,7 +50,7 @@ class Contact extends Component{
         break;
       case 'message': 
         messageValid = value.length >= 25;
-        fieldValidationErrors.message = messageValid ? '': 'White some more in the message.';
+        fieldValidationErrors.message = messageValid ? '': 'Write a little more in the message.';
         break;
       default:
         break;
@@ -119,7 +119,10 @@ class Contact extends Component{
                 
             </div>
             <div className="BlockRightContact">
-               "Inserir redes sociais aqui"
+               <i class="whatsapp icon green"></i>
+               <i class="facebook f icon green"></i>
+               <i class="github icon green"></i>
+               <i class="linkedin icon green"></i>
             </div>
           </div>
       </div>

@@ -5,10 +5,10 @@ import "./styles.css"
 function About() {
   return (
       <div id="about" className="Component">
-        <div className="BlockRight">
+        <div className="BlockRight" data-anime="left">
             <img alt="developer" className="developer_activity" src={developer_activity}></img>
         </div>
-        <div className="BlockLeft">
+        <div className="BlockLeft" data-anime="rigth">
             <p className="about">I Am a Junior Programmer</p>
             <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis laoreet elementum. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aliquam porta faucibus arcu, et consequat velit vestibulum in. Donec quis tellus ut urna volutpat posuere quis consectetur quam.</article>
             <table>

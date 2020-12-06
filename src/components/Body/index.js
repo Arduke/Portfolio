@@ -7,7 +7,22 @@ import Activities from '../Activities'
 
 
 function Body() {
+
+  
+
   return (
+    window.addEventListener('scroll', function() {
+      const target = document.querySelectorAll('[data-anime]')
+      const windowTop = window.pageYOffset + ((window.innerHeight * 3)/4);
+      
+      target.forEach(function(element) {
+        if((windowTop) > element.offsetTop) {
+          element.classList.add('animate')
+        } else {
+          element.classList.remove('animate')
+        }
+      })
+    }),
     <div className="DivRoot">
       <Home></Home>
       <About></About>
