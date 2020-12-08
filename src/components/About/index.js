@@ -41,7 +41,7 @@ function About() {
                 </tr>
                 </tbody>
             </table>
-            <a href="/" className="buttonDownload" >Download Cv</a>
+            <a href="https://docs.google.com/document/d/1lEgVJFStZrXrFXQe7J0fIvw1NQ8B8qE3HOw5fQkTbvU/edit?usp=sharing" className="buttonDownload" >Download Cv</a>
         </div>
       </div>
   );

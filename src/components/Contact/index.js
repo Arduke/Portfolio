@@ -119,10 +119,26 @@ class Contact extends Component{
                 
             </div>
             <div className="BlockRightContact">
-               <i class="whatsapp icon green"></i>
-               <i class="facebook f icon green"></i>
-               <i class="github icon green"></i>
-               <i class="linkedin icon green"></i>
+               <a  rel="noreferrer" target="_blank" href='https://wa.me/5513991368374' className="buttonGradient">
+                <i class="whatsapp icon large"></i>
+                (13) 99136-8374
+               </a>
+
+               <a  rel="noreferrer" target="_blank" href='https://www.facebook.com/profile.php?id=100000818611560' className="buttonGradient">
+                <i class="facebook f icon large "></i>
+                facebook.com.br/KaduEdu
+               </a>
+               
+               <a  rel="noreferrer" target="_blank" href='https://github.com/Arduke' className="buttonGradient">
+                <i class="github icon large"></i>
+                github.com.br/Arduke
+               </a>
+               
+               <a  rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/carlos-eduardo-martins-filho-8a38b3174/' className="buttonGradient">
+                <i class="linkedin icon large"></i>
+                linkedin.com.br/Carlos
+               </a>
+               
             </div>
           </div>
       </div>

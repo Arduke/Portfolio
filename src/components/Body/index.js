@@ -4,6 +4,7 @@ import About from '../About'
 import Contact from '../Contact'
 import "./styles.css"
 import Activities from '../Activities'
+import Projects from '../Projects'
 
 
 function Body() {
@@ -27,6 +28,7 @@ function Body() {
       <Home></Home>
       <About></About>
       <Activities></Activities>
+      <Projects></Projects>
       <Contact></Contact>
     </div>
   );
