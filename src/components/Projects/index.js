@@ -6,6 +6,7 @@ import TokenRpg from '../../image/TokenRpg.png'
 function Projects() {
   return (
     <div id="about" className="ComponentProjects">
+        <p  className="pCenter">My Projects</p>
         <div id="slider">
             <input type='radio' name="slider" id="slide1" checked/>
             <input type='radio' name="slider" id="slide2"/>

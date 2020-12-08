@@ -13,7 +13,7 @@
  }
  #slides {
     padding: 0px;
-    border: 0px solid white;
+    border: 2px solid white;
     background: #fff;
     position: relative;
     z-index: 1;
@@ -50,16 +50,16 @@
     color: #fff;
  }
  #slides .slide_1 {
-    background: black;
+    background: #100e17;
  }
  #slides .slide_2 {
-    background: black;
+    background: #100e17;
  }
  #slides .slide_3 {
-    background: black;
+    background: #100e17;
  }
  #slides .slide_4 {
-    background: black;
+    background: #100e17;
  }
  #controls {
     margin: -180px 0 0 0;
@@ -97,7 +97,7 @@
     display: block;
  }
  #bullets {
-    margin: 150px 0 0;
+    margin: 50px 0 0;
     text-align: center;
  }
  #bullets label {
@@ -128,5 +128,8 @@
     #slides {
        max-width: calc(100% - 40px);
        margin: 0 auto;
+    }
+    #slides .inner {
+       height: 300px;
     }
  }

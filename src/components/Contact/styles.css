@@ -136,6 +136,12 @@
 
 
 @media (max-width: 800px) {
+    .ComponentContact {
+        padding: 0px 40px 0px 40px;
+    }
+    .BlockRightContact a{
+        font-size: 8px;
+    }
     .BlockCentral {
         display: inline;
     }
