@@ -8,11 +8,11 @@
 }
 
 [data-anime='left'] {
-    transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
 }
 
 [data-anime='rigth'] {
-    transform: translate3d(100px, 0, 0);
+    transform: translate3d(25px, 0, 0);
 }
 
 [data-anime].animate {

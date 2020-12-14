@@ -21,8 +21,8 @@ function Menu() {
             <li><a onClick={handleMenu} className="active" href="#home">HOME</a></li>
             <li><a onClick={handleMenu} href="#about">ABOUT</a></li>
             <li><a onClick={handleMenu} href="#activities">ACTIVITIES</a></li>
-            <li><a onClick={handleMenu} href="/">PORTFOLIO</a></li>
-            <li><a onClick={handleMenu} href="/#contact">CONTACT</a></li>
+            <li><a onClick={handleMenu} href="#projects">PROJECTS</a></li>
+            <li><a onClick={handleMenu} href="#contact">CONTACT</a></li>
         </ul>
     </nav>
   )

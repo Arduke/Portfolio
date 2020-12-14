@@ -8,7 +8,7 @@ function Activities() {
             <div className="l-cards"> 
                 <article className="c-card" data-anime="left">
                     <span className="material-icons">public</span> 
-                    <h2>Suporte</h2>
+                    <h2>Support</h2>
                     <article> More than three years of experience in maintaining computers, notebooks and support for any type of digital need. </article>
                 </article>
                 <article className="c-card" data-anime="rigth">

@@ -10,7 +10,7 @@ function About() {
         </div>
         <div className="BlockLeft" data-anime="rigth">
             <p className="about">I Am a Junior Programmer</p>
-            <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis laoreet elementum. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aliquam porta faucibus arcu, et consequat velit vestibulum in. Donec quis tellus ut urna volutpat posuere quis consectetur quam.</article>
+            <article>I am just a programmer with a lot of time invested studying the best technologies and good practices to make your business or idea as current and technological as possible. Having certified hands on UX Designer, React.Js and React Native, which are technologies used by companies such as Facebook, AirBnB and Uber.</article>
             <table>
                 <thead></thead>
                 <tbody>
