@@ -22,13 +22,13 @@
     width: 100%;
     overflow: hidden;
  }
- #slide1:checked ~ #slides .inner {
+ #slide1:check ~ #slides .inner {
     margin-left: 0;
  }
- #slide2:checked ~ #slides .inner {
+ #slide2:check ~ #slides .inner {
     margin-left: -100%;
  }
- #slide3:checked ~ #slides .inner {
+ #slide3:check ~ #slides .inner {
     margin-left: -200%;
  }
  #slides .inner {
@@ -72,18 +72,18 @@
  #controls label:hover {
     opacity: 1;
  }
- #slide1:checked ~ #controls label:nth-child(2),
- #slide2:checked ~ #controls label:nth-child(3),
- #slide3:checked ~ #controls label:nth-child(1)
+ #slide1:check ~ #controls label:nth-child(2),
+ #slide2:check ~ #controls label:nth-child(3),
+ #slide3:check ~ #controls label:nth-child(1)
  {
     background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
     float:right;
     margin: 0 -50px 0 0;
     display: block;
  }
- #slide1:checked ~ #controls label:nth-last-child(2),
- #slide2:checked ~ #controls label:nth-last-child(3),
- #slide3:checked ~ #controls label:nth-last-child(1)
+ #slide1:check ~ #controls label:nth-last-child(2),
+ #slide2:check ~ #controls label:nth-last-child(3),
+ #slide3:check ~ #controls label:nth-last-child(1)
 {
     background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
     float:left;
@@ -102,19 +102,19 @@
     background: #ccc;
     margin: 0 10px;
  }
- #slide1:checked ~ #bullets label:nth-child(1),
- #slide2:checked ~ #bullets label:nth-child(2),
- #slide3:checked ~ #bullets label:nth-child(3)
+ #slide1:check ~ #bullets label:nth-child(1),
+ #slide2:check ~ #bullets label:nth-child(2),
+ #slide3:check ~ #bullets label:nth-child(3)
 {
     background: #08d665;;
  }
  @media screen and (max-width: 900px) {
-    #slide1:checked ~ #controls label:nth-child(2),
-    #slide2:checked ~ #controls label:nth-child(3),
-    #slide3:checked ~ #controls label:nth-child(1),
-    #slide1:checked ~ #controls label:nth-last-child(2),
-    #slide2:checked ~ #controls label:nth-last-child(3),
-    #slide3:checked ~ #controls label:nth-last-child(1)
+    #slide1:check ~ #controls label:nth-child(2),
+    #slide2:check ~ #controls label:nth-child(3),
+    #slide3:check ~ #controls label:nth-child(1),
+    #slide1:check ~ #controls label:nth-last-child(2),
+    #slide2:check ~ #controls label:nth-last-child(3),
+    #slide3:check ~ #controls label:nth-last-child(1)
     {
        margin: 0;
     }
