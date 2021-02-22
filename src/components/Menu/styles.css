@@ -93,7 +93,7 @@ nav ul li a:hover{
         color: rgb(0, 0, 0);
     }
     
-    #check:check ~ ul {
+    #check:checked ~ ul {
         left: 0;
     }
 }
